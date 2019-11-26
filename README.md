@@ -1,3 +1,7 @@
+---
+description: The introduction page
+---
+
 # Welcome
 
 ## Getting Super Powers
