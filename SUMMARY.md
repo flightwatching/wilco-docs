@@ -4,6 +4,6 @@
 * [Dashboards](dashboards/README.md)
   * [Rules](dashboards/rules.md)
   * [\_anims](dashboards/_anims.md)
-* [IFT V2](ift-v2.md)
-* [FW.getEvent\(\)](fw.getevent.md)
+* [IFT V2](ift-v2/README.md)
+  * [FW.getEvent\(\)](ift-v2/fw.getevent.md)
 
