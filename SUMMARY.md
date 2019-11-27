@@ -27,4 +27,8 @@
   * [FW.reportWarn\(\)](ift-v2/fw.reportwarn.md)
   * [FW.reportFault\(\)](ift-v2/fw.reportfault.md)
   * [FW.reportError\(\)](ift-v2/fw.reporterror.md)
+  * [FW.log\(\)](ift-v2/fw.log.md)
+  * [FW.updateProperties\(\)](ift-v2/fw.updateproperties.md)
+  * [FW.setFlightStatus\(\)](ift-v2/fw.setflightstatus.md)
+  * [FW.setLoc\(\)](ift-v2/fw.setloc.md)
 
