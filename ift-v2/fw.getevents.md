@@ -28,15 +28,14 @@ var fromDate = moment.utc(cms.computedDate).add(-2, 'days');
 
 //FW.getEvents(reg, from, to, withDismissed, showHidden, severities, tags, count)
 //we search the events where tags are in "2420FJV7", "2420FJV8" in the last 2 days
-FW.getEvents(cms.reg, fromDate, toDate, true, false, null, ["2420FJV7", "2420FJV8" ], 2)
-.then(function(events) {
-  if (events.length>0) { // if we find at least 1 event
-    FW.notify ("Magdalena.TRZECIAKOWSKA@revima-apu.com",
-               "LGB possible distress",
-               "APU Chip Det - APU GEN A under-frequency");
-  }
-});
-```
+const req = await FW.getEvents(cms.reg, fromDate, toDate, true, false, null, ["2420FJV7", "2420FJV8" ], 2);
+const events = req.data.events;
+if (events.length>0) { // if we find at least 1 event
+  await FW.notify ("bart.simpson@my-company.com",
+             "LGB possible distress",
+             "APU Chip Det - APU GEN A under-frequency");
+}
 
-###  ``
+
+```
 

@@ -14,4 +14,7 @@
   * [FW.getFwot\(\)](ift-v2/fw.getfwot.md)
   * [FW.getFwots\(\)](ift-v2/fw.getfwots.md)
   * [FW.notify\(\) &lt;deprecated&gt;](ift-v2/fw.notify-less-than-deprecated-greater-than.md)
+  * [FW.notifyWithTemplate\(\) &lt;deprecated&gt;](ift-v2/fw.notifywithtemplate-less-than-deprecated-greater-than.md)
+  * [FW.setFrom\(\)](ift-v2/fw.setfrom.md)
+  * [FW.setTo\(\)](ift-v2/fw.setto.md)
 

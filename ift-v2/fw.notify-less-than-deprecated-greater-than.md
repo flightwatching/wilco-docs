@@ -14,7 +14,7 @@ Check ${msg.sumUp} details <a href="${url}">here</a>
 ```
 
 ```javascript
-FW.notify('support@flightwatching.com', //recipient list
+await FW.notify('support@flightwatching.com', //recipient list
 'My subject', // subject
 'Dear FW support team, ...' //body
 );
