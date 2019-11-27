@@ -5,6 +5,13 @@
   * [Rules](dashboards/rules.md)
   * [\_anims](dashboards/_anims.md)
 * [IFT V2](ift-v2/README.md)
+  * [moment](ift-v2/moment.md)
+  * [underscore](ift-v2/underscore.md)
+  * [current Fwot](ift-v2/current-fwot.md)
+  * [Samples](ift-v2/samples.md)
   * [FW.getEvent](ift-v2/fw.getevent.md)
   * [FW.getEvents](ift-v2/fw.getevents.md)
+  * [FW.getFwot\(\)](ift-v2/fw.getfwot.md)
+  * [FW.getFwots\(\)](ift-v2/fw.getfwots.md)
+  * [FW.notify\(\) &lt;deprecated&gt;](ift-v2/fw.notify-less-than-deprecated-greater-than.md)
 
