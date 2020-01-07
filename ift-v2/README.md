@@ -1,4 +1,12 @@
+---
+description: >-
+  IFTs are busines rules that are run at each message received. It is either
+  linked to a layout, or a parameter or a faultcode.
+---
+
 # IFT V2
+
+![The business rules are small automations that are trigged by any received message](../.gitbook/assets/image%20%283%29.png)
 
 {% hint style="info" %}
 **a pre-requisite is to know javascript.**
