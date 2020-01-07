@@ -18,3 +18,10 @@ If not, the uplink will not fail but the command has no effect.
 
 ![The uplink is actually performed if the doUplink is set to true and the uplinkTemplate is set as shown here](../.gitbook/assets/image.png)
 
+```javascript
+//uplink the layout 686787 in 20 seconds with the option tieback set to HKG5MN
+FW.uplink(686787, 20, ['tieback:HKG5MN']);
+```
+
+
+
