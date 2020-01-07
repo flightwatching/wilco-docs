@@ -31,8 +31,8 @@
   * [FW.updateProperties\(\)](ift-v2/fw.updateproperties.md)
   * [FW.setFlightStatus\(\)](ift-v2/fw.setflightstatus.md)
   * [FW.setLoc\(\)](ift-v2/fw.setloc.md)
-  * [FW.setComputedDate\(\)](ift-v2/fw.setcomputeddate-1.md)
   * [FW.uplink\(\)](ift-v2/fw.uplink.md)
+  * [FW.set\(\)](ift-v2/fw.set.md)
 * [Code snippets](code-snippets/README.md)
   * [Get the last UPLINK message with filters](code-snippets/get-the-last-uplink-message-with-filters.md)
 
