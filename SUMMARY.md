@@ -31,6 +31,7 @@
   * [FW.updateProperties\(\)](ift-v2/fw.updateproperties.md)
   * [FW.setFlightStatus\(\)](ift-v2/fw.setflightstatus.md)
   * [FW.setLoc\(\)](ift-v2/fw.setloc.md)
+  * [FW.uplink\(\)](ift-v2/fw.uplink.md)
 * [Code snippets](code-snippets/README.md)
   * [Get the last UPLINK message with filters](code-snippets/get-the-last-uplink-message-with-filters.md)
 
