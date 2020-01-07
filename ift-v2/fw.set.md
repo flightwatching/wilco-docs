@@ -14,9 +14,9 @@ creates a sample for the passed parameter. if timestamp is not passed, then the 
 
 ```javascript
 if (APUBV=="-"||APUBV=='X') {
-    FW.set("LS_APU_NA",0);
+  await FW.set("LS_APU_NA",0);
 } else if(+APUBV==1) {
-	FW.set("LS_APU_NA",100);
+	await FW.set("LS_APU_NA",100);
 }
 ```
 
