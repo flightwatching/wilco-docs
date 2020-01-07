@@ -13,10 +13,8 @@ FW.log(lastITM.map(e=>e.sumUp));
 ```
 
 1. We create a timespan starting 10 minutes ago. The `now` is not the current UTC but is the currently processed message. It is important to use this timestamp as the occurence may be in the past when reparsing the messages or receiving it late.
-2. We query the DB for the messages of the same fwot in the time window, filtering for the internal tag `IFT_UPLINK` that is automatically positionned when an uplink is trigged thru IFT. We limit to 300 events, which is totally arbitrary
+2. We query the DB for the messages of the same fwot in the time window, filtering for the internal tag `IFT_UPLINK` that is automatically positionned when an uplink is trigged thru IFT. We limit to 300 events, which is totally arbitrary. referenced function: [FW.getEvents](../ift-v2/fw.getevents.md)
 3. We filter the received results that matches a second tag `ATA78` and which `sumUp` matches RELAY1 or RELAY2
-
-\[FW.getEvents\]\(../ift-v2/fw.getevents\)
 
 
 
