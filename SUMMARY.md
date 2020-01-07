@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome](README.md)
+* [Introduction](README.md)
 * [Dashboards](dashboards/README.md)
   * [Rules](dashboards/rules.md)
   * [\_anims](dashboards/_anims.md)
