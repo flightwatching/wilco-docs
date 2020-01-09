@@ -10,7 +10,7 @@ returns the raw data of the event \(with `await`\). The raw data is a string tha
 const raw = await FW.getRaw();
 if (raw.indexOf('EEC')>0) {
 //FW.log(raw)
-await FW.email('beaujard@flightwatching.com', 'EEC found in CL3')
+await FW.email('xxx@my-company.com', 'EEC found in CL3')
 }
 
 ```
