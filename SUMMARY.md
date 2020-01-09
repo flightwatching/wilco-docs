@@ -42,6 +42,7 @@
   * [FW.postEvent\(\)](ift-v2/fw.postevent.md)
   * [FW.reportFaultCode\(\)](ift-v2/fw.reportfaultcode.md)
   * [FW.querySamples](ift-v2/fw.querysamples.md)
+  * [FW.getRaw](ift-v2/fw.getraw.md)
 * [Code snippets](code-snippets/README.md)
   * [Get the last UPLINK message with filters](code-snippets/get-the-last-uplink-message-with-filters.md)
 
