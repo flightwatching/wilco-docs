@@ -2,7 +2,7 @@
 description: 'FW.setLoc(locOrReg, d)'
 ---
 
-# FW.setLoc\(\)
+# FW.setLoc
 
 Sets the location of a the current event's Fwot.
 

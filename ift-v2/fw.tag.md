@@ -2,7 +2,7 @@
 description: FW.tag(tag)
 ---
 
-# FW.tag\(\)
+# FW.tag
 
 tags the event with tag; If called several times, tag remains unique \(no effect\)
 

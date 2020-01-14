@@ -2,7 +2,7 @@
 description: FW.getFwot(reg)
 ---
 
-# FW.getFwot\(\)
+# FW.getFwot
 
 Access any FWOT using its registration. returns a [FwotV3IO](https://github.com/flightwatching/wilco-api/blob/master/java/com/fw/wilco/api/FwotV3IO.java):
 

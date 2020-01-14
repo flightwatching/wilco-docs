@@ -2,7 +2,7 @@
 description: FW.postEvent(eventV3IO)
 ---
 
-# FW.postEvent\(\)
+# FW.postEvent
 
 posts an event. There are help functions to make it easier.
 

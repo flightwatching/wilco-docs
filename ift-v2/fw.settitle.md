@@ -2,7 +2,7 @@
 description: FW.setTitle(title)
 ---
 
-# FW.setTitle\(\)
+# FW.setTitle
 
 You can override the default title for any event in an IFT. You can compose the title with the context of the event. Here is a sample:
 

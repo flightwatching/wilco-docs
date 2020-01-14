@@ -2,7 +2,7 @@
 description: 'FW.setStyle(name, value)'
 ---
 
-# FW.setStyle\(\)
+# FW.setStyle
 
 You can dynamically set the style of your event in the timeline view by setting some styling properties with this function. any name/value pair is accepted. 2 names are predefined for the display in the timeline:
 

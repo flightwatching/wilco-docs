@@ -2,7 +2,7 @@
 description: FW.setSeverity(level)
 ---
 
-# FW.setSeverity\(\)
+# FW.setSeverity
 
 You can override the default severity for any event in an IFT. Severity must be one of `WARNING, FAULT, ERROR, INFO`.
 

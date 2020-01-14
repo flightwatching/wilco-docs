@@ -2,7 +2,7 @@
 description: 'FW.reportInfo(title, timestamp, flightPhase)'
 ---
 
-# FW.reportInfo\(\)
+# FW.reportInfo
 
 shorthand for [`FW.report(txt, 'INFO', timestamp, flightPhase)`](fw.report.md)\`\`
 

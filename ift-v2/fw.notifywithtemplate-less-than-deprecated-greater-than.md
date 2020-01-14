@@ -2,7 +2,7 @@
 description: 'FW.notifyWithTemplate(who, subject, templateId, params)'
 ---
 
-# FW.notifyWithTemplate\(\) &lt;deprecated&gt;
+# FW.notifyWithTemplate &lt;deprecated&gt;
 
 The purpose of this is to reference the body from a complex html file that will be customized with parameters.
 

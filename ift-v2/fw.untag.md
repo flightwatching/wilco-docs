@@ -2,7 +2,7 @@
 description: FW.untag(tag)
 ---
 
-# FW.untag\(\)
+# FW.untag
 
 removes a tag from the event
 

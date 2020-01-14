@@ -2,7 +2,7 @@
 description: 'FW.notify(who, subject, body)'
 ---
 
-# FW.notify\(\) &lt;deprecated&gt;
+# FW.notify &lt;deprecated&gt;
 
 Sends an e-mail to `who` with subject and eventually a body. A signature is always added to the message. It can be overridden with the AppConfig property `MAIL_TEMPLATE` using the groovy syntax \([cheatsheet](https://www.playframework.com/documentation/1.5.x/cheatsheet/templates)\). Few parameters are available.
 

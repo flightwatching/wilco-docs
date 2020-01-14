@@ -2,7 +2,7 @@
 description: Accesses all the Fwots of Wilco
 ---
 
-# FW.getFwots\(\)
+# FW.getFwots
 
 {% hint style="info" %}
 You have to call this function with the `await` javascript keyword in order to be sure to have the list from the server to continue

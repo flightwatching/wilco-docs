@@ -2,7 +2,7 @@
 description: 'FW.uplink(layoutId, delayInSec, opts)'
 ---
 
-# FW.uplink\(\)
+# FW.uplink
 
 Uplinks a message to the current FWOT.
 

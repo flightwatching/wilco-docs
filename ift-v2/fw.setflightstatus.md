@@ -2,7 +2,7 @@
 description: FW.setFlightStatus(flightStatus)
 ---
 
-# FW.setFlightStatus\(\)
+# FW.setFlightStatus
 
 shorthand for `FW.updateProperties({status:flightStatus})`
 

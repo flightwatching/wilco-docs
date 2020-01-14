@@ -2,7 +2,7 @@
 description: 'FW.set(param, value, timestamp)'
 ---
 
-# FW.set\(\)
+# FW.set
 
 creates a sample for the passed parameter. if timestamp is not passed, then the event timestamp is used
 
