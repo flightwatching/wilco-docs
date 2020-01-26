@@ -23,6 +23,7 @@
   * [WILCO.getSamplesForFwotMinMaxDate](dashboards/wilco.getsamplesforfwotminmaxdate.md)
   * [WILCO.getSampleTableForFwot](dashboards/wilco.getsampletableforfwot.md)
   * [WILCO.getSamplesTableForFwotMinMaxDate](dashboards/wilco.getsamplestableforfwotminmaxdate.md)
+  * [getEventsStats](dashboards/geteventsstats.md)
   * [Rules](dashboards/rules.md)
   * [\_anims](dashboards/_anims.md)
 * [IFT V2](ift-v2/README.md)
