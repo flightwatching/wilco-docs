@@ -16,7 +16,7 @@ If not, the uplink will not fail but the command has no effect.
 * `delayInSec` is the number of seconds WILCO have to wait before actually sending the message
 * `opts` is an array of strings. each string has the format `key:value`
 
-![The uplink is actually performed if the doUplink is set to true and the uplinkTemplate is set as shown here](../.gitbook/assets/image.png)
+![The uplink is actually performed if the doUplink is set to true and the uplinkTemplate is set as shown here](../.gitbook/assets/image%20%283%29.png)
 
 ```javascript
 //uplink the layout 686787 in 20 seconds with the option tieback set to HKG5MN
