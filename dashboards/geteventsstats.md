@@ -2,7 +2,7 @@
 description: 'WILCO.getEventsStats(reg, req)'
 ---
 
-# getEventsStats
+# WILCO.getEventsStats
 
 return event statistics on a fwot. The results can be aggregated
 
