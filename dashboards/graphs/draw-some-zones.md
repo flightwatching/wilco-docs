@@ -7,6 +7,7 @@ A zone helps to split the graph into zones. Zones are between 2 X values `drawZo
   * `size`: the font-size to apply on the `sn` text \(css size\)
   * `sn`: a short text that will be displayed vertically onto the border of the zone
   * `extent`: an array of 2 dates/numbers which are the X min and the X max values of the zone
+  * `opacity`: the opacity of the zone. By default, it is 0.2
 
 ```javascript
   const oooi = this.oooi = (OOOI.history().filter(e=>['ON', 'OFF'].includes(e[0])));
