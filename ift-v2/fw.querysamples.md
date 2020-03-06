@@ -4,6 +4,10 @@
 
 You can now query WILCO for samples. It allows to make real analytics on message reception. a new function. Each sample is a [SampleV3IO](https://github.com/flightwatching/wilco-api/blob/master/java/com/fw/wilco/api/SampleV3IO.java)
 
+{% hint style="info" %}
+The result will not contain the current sample if you do not specify not from or to
+{% endhint %}
+
 ```javascript
 FW.querySamples(
   regs,           // an array of fwot registrations. if null, this field is replaced by the event's fwot.
