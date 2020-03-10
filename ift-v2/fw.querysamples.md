@@ -30,4 +30,10 @@ const values = s.map(s=>s.value);
 //values is an array of all the values.
 ```
 
-* 
+
+
+```javascript
+//gets the last sample of ETD
+const etd = await FW.querySamples(['B-HLI'],['ETD'],null,FW.getEvent().computedDate,false,false,1,1);
+```
+
