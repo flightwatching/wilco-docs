@@ -13,6 +13,8 @@ All the dots/circles of the graph are set thru this function. You cannot name th
   * `radius`: the size of the circle of the dot \(string\). can also be a function where the parameter is the `dot`. the return should be a number
   * `opacity`: the opacity of the circle of the dot \(string\). can also be a function where the parameter is the `dot`. the return should be a number between 0 and 1
 * `opts`: the default values if they are not specified in each dot.
+  * `autoScaleX`: The X axis is recomputed to match the data.
+  * `autoScaleY`: The Y axis is recomputed to match the data.
   * `color`: the color of the dot \(string\). can also be a function where the parameter is the `dot`. the return should be a web color or a hex value
   * `radius`: the size of the circle of the dot \(string\). can also be a function where the parameter is the `dot`. the return should be a number
   * `opacity`: the opacity of the circle of the dot \(string\). can also be a function where the parameter is the `dot`. the return should be a number between 0 and 1
