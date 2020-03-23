@@ -18,4 +18,7 @@ All the dots/circles of the graph are set thru this function. You cannot name th
   * `color`: the color of the dot \(string\). can also be a function where the parameter is the `dot`. the return should be a web color or a hex value
   * `radius`: the size of the circle of the dot \(string\). can also be a function where the parameter is the `dot`. the return should be a number
   * `opacity`: the opacity of the circle of the dot \(string\). can also be a function where the parameter is the `dot`. the return should be a number between 0 and 1
+  * `stack`: the `y` value is ignored and the dots are piled up in case they overlap
+
+
 
