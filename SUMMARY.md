@@ -67,8 +67,8 @@
   * [FW.reportFaultCode](ift-v2/fw.reportfaultcode.md)
   * [FW.querySamples](ift-v2/fw.querysamples.md)
   * [FW.getRaw](ift-v2/fw.getraw.md)
-* [Code snippets](code-snippets/README.md)
-  * [Get the last UPLINK message with filters](code-snippets/get-the-last-uplink-message-with-filters.md)
+* [Insert events](insert-events/README.md)
+  * [elasticsearch aggregation](insert-events/elasticsearch-aggregation.md)
 * [General admin](general-admin/README.md)
   * [SEND\_MAIL](general-admin/send_mail.md)
   * [DO\_UPLINK](general-admin/do_uplink.md)
@@ -79,4 +79,6 @@
   * [USE\_CURRENT\_DATE](general-admin/use_current_date.md)
   * [DO\_UPLINK\_AUTOMATIC\_BLACKLIST](general-admin/do_uplink_automatic_blacklist.md)
   * [DO\_UPLINK\_MANUAL\_BLACKLIST](general-admin/do_uplink_manual_blacklist.md)
+* [Code snippets](code-snippets/README.md)
+  * [Get the last UPLINK message with filters](code-snippets/get-the-last-uplink-message-with-filters.md)
 
