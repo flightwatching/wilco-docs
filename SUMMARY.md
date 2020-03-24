@@ -12,6 +12,7 @@
     * [draw circles](dashboards/graphs/draw-circles.md)
     * [Example](dashboards/graphs/example.md)
   * [Libraries](dashboards/libraries.md)
+  * [WILCO.user](dashboards/wilco.user.md)
   * [WILCO.api](dashboards/wilco.apiv3.md)
   * [WILCO.alertError](dashboards/wilco.alerterror.md)
   * [WILCO.alertWarning](dashboards/wilco.alertwarning.md)
