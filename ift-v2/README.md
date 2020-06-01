@@ -6,7 +6,7 @@ description: >-
 
 # IFT V2
 
-![The business rules are small automations that are trigged by any received message](../.gitbook/assets/image%20%285%29.png)
+![The business rules are small automations that are trigged by any received message](../.gitbook/assets/image%20%283%29.png)
 
 {% hint style="info" %}
 **a pre-requisite is to know javascript.**

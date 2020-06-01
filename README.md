@@ -6,7 +6,7 @@ description: >-
 
 # Introduction
 
-![The login page for WILCO](.gitbook/assets/image%20%286%29.png)
+![The login page for WILCO](.gitbook/assets/image%20%282%29%20%281%29.png)
 
 {% hint style="info" %}
 Current IFT version is V2. A V1.3 exists but is not described anymore as it is deprecated.

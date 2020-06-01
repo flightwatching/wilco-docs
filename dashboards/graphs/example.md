@@ -1,6 +1,6 @@
 # Example
 
-![The rendered graph with the herebelow piece of code](../../.gitbook/assets/image%20%281%29.png)
+![The rendered graph with the herebelow piece of code](../../.gitbook/assets/image%20%281%29%20%281%29.png)
 
 
 

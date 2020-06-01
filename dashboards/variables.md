@@ -41,6 +41,63 @@ an object containing all the url parameters. for example `http://localhost:9000/
 }
 ```
 
+Some predefined fields are allowed acording to the page where the dashboard is inserted:
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">What page</th>
+      <th style="text-align:left">Field name</th>
+      <th style="text-align:left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Fleet page</td>
+      <td style="text-align:left">db</td>
+      <td style="text-align:left">the <code>id</code> of the dashboard</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Fleet page</td>
+      <td style="text-align:left">cols</td>
+      <td style="text-align:left">the count of dashboard copies per row</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Fleet page</td>
+      <td style="text-align:left">refDate</td>
+      <td style="text-align:left">
+        <p>A date that is the latest date for the requests. Makes it possible to
+          have fleet status in the past. Please note that even if <code>refDate</code> is
+          set, the status of the FWOT is still the current one, not at <code>refDate</code>
+        </p>
+        <p>To parse, we first check if the string matches known <a href="https://en.wikipedia.org/wiki/ISO_8601">ISO 8601</a> formats,
+          we then check if the string matches the <a href="https://tools.ietf.org/html/rfc2822#section-3.3">RFC 2822 Date time</a> format</p>
+        <p>If not set, the date is now</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Fleet page</td>
+      <td style="text-align:left">count</td>
+      <td style="text-align:left">A number that works in conjunction with <code>unit</code> if not provided,
+        default is 100.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Fleet page</td>
+      <td style="text-align:left">unit</td>
+      <td style="text-align:left">a time unit to define the time windows for the display. can be one of
+        <a
+        href="https://momentjs.com/docs/#/manipulating/add/">https://momentjs.com/docs/#/manipulating/add/</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+{% hint style="info" %}
+Example: fleet?db=13662458&cols=12&count=5&unit=days&airport=VHHH&refDate=2020-01-14
+
+the request would be on all the samples between the 09 of Jan to the 14th
+{% endhint %}
+
 #### EVT \(use this for a given event\)
 
 `EVT` is an object that represents the [EventV3IO API object](https://github.com/flightwatching/wilco-api/blob/master/java/com/fw/wilco/api/EventV3IO.java). you can access the fields like this:
