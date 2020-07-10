@@ -89,4 +89,5 @@
   * [DO\_UPLINK\_MANUAL\_BLACKLIST](general-admin/do_uplink_manual_blacklist.md)
 * [Code snippets](code-snippets/README.md)
   * [Get the last UPLINK message with filters](code-snippets/get-the-last-uplink-message-with-filters.md)
+  * [Automatically handle faultcodes according to a doc and a regex](code-snippets/automatically-handle-faultcodes-according-to-a-doc-and-a-regex.md)
 
