@@ -39,6 +39,7 @@
   * [Samples](ift-v2/samples.md)
   * [FW.api](ift-v2/fw.api.md)
   * [FW.getEvent](ift-v2/fw.getevent.md)
+  * [FW.getOtherEvent](ift-v2/fw.getotherevent.md)
   * [FW.getEvents](ift-v2/fw.getevents.md)
   * [FW.getFwot](ift-v2/fw.getfwot.md)
   * [FW.getFwots](ift-v2/fw.getfwots.md)
@@ -90,4 +91,5 @@
 * [Code snippets](code-snippets/README.md)
   * [Get the last UPLINK message with filters](code-snippets/get-the-last-uplink-message-with-filters.md)
   * [Automatically handle faultcodes according to a doc and a regex](code-snippets/automatically-handle-faultcodes-according-to-a-doc-and-a-regex.md)
+  * [Get the current airport](code-snippets/get-the-current-airport.md)
 
