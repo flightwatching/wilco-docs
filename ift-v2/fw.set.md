@@ -1,5 +1,5 @@
 ---
-description: 'FW.set(param, value, timestamp)'
+description: 'FW.set(param, value, timestamp, onlyIfChanged)'
 ---
 
 # FW.set
@@ -11,6 +11,7 @@ creates a sample for the passed parameter. if timestamp is not passed, then the 
 * `param` is a string and is the name of the parameter that will be created. If the parametre does not exists, it will be created on the fly
 * `value` is the value of the parameter. It can be a number or a string
 * The `timestamp` has to be in the format: "yyyy-MM-dd'T'HH:mm:ss" or a date or a moment or any ISO9001 format. if timestamp is not passed, then the event timestamp is used
+* `onlyIfChanged` is an option that makes it possible to create the sample only when the value has changed compared to the previous value. It is useful when you want to log upfronts or downfronts
 
 ```javascript
 if (APUBV=="-"||APUBV=='X') {
