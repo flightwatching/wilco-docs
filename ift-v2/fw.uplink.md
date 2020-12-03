@@ -14,7 +14,9 @@ If not, the uplink will not fail but the command has no effect.
 
 * `LayoutId` is the ID of the layout that you want to uplink. The layout is uplinkable if it specifies a uplink-template in the admin area. The uplink-template may support some options that can be passed as third argument
 * `delayInSec` is the number of seconds WILCO have to wait before actually sending the message
-* `opts` is an array of strings. each string has the format `key:value`
+* `opts` is an array of strings. each string has the format `key:value`. there are some predefined keys
+  * `tieback`: is often used in the templates to use the tieback feature of the ACMS
+  * `recipient`: you can force the network that will send the message to the A/C \(like `DDLXCXA`, `QXSXMXS`...\)
 
 ![The uplink is actually performed if the doUplink is set to true and the uplinkTemplate is set as shown here](../.gitbook/assets/image.png)
 

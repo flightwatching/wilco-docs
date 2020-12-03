@@ -7,5 +7,5 @@ description: >-
 
 # Graphs
 
-![Example of the usage of 3 graphs in a dashboard](../../.gitbook/assets/image%20%282%29.png)
+![Example of the usage of 3 graphs in a dashboard](../../.gitbook/assets/image%20%284%29.png)
 
