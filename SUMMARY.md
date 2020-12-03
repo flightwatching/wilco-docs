@@ -76,6 +76,7 @@
   * [FW.getRaw](ift-v2/fw.getraw.md)
   * [FW.getBit](ift-v2/fw.getbit.md)
   * [FW.csv](ift-v2/fw.csv.md)
+  * [FW.machineLearningPredict](ift-v2/fw.machinelearningpredict.md)
 * [Insert events](insert-events/README.md)
   * [elasticsearch aggregation](insert-events/elasticsearch-aggregation.md)
 * [General admin](general-admin/README.md)

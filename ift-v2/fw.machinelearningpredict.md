@@ -1,10 +1,15 @@
 ---
-description: Launch a machine-learning prediction job to predict a value from inputs (usually sample values) and compare it with an actual value (usually a sample value).
+description: >-
+  Launch a machine-learning prediction job to predict a value from inputs
+  (usually sample values) and compare it with an actual value (usually a sample
+  value).
 ---
 
 # FW.machineLearningPredict
 
-```javascript
+
+
+```text
 FW.machineLearningPredict (jobName, inputs, outputs = {prediction:"", reference:"" , delta:""})
 ```
 
@@ -18,3 +23,4 @@ FW.machineLearningPredict (jobName, inputs, outputs = {prediction:"", reference:
 Examples of calls:
 
 * `FW.machineLearningPredict('B747_PW901_v1', { 'GEN_LOAD_1':GEN_LOAD_1, 'APU_N1':APU_N1, 'APU_N2':APU_N2 }, { prediction:'APU_EGT_PREDICTION', reference: APU_EGT, delta:'APU_EGT_PREDICTION_ERROR'});`
+
