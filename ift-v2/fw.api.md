@@ -17,7 +17,8 @@ It is not necessary to pass the credentials because IFT has already the context.
 Get an event from its ID
 
 ```javascript
-const event = await FW.api.get(`events/${myId}`);
+const req = await FW.api.get(`events/${myId}`);
+const event = req.data
 ```
 
 
