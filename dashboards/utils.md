@@ -8,7 +8,7 @@ description: A  set of useful functions that are already packed for you
 
 If the tag is found in the event, then it is returned \(the String, that is equal to the `tag` parameter\). Else `null` is returned.
 
-```text
+```javascript
 if (getTag('IFT_MAIL', EVT)) {
   WILCO.alertInfo("a mail has been sent with along this event")
 } else {
