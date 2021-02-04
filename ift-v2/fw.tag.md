@@ -14,3 +14,7 @@ It is strongly recommended to use the await keyword to avoid IFT collision
 await FW.tag("ITM36");
 ```
 
+{% hint style="info" %}
+Like for twitter, the tags are always uppercase. If you enter a lower case, it will be transformed to uppercase on the fly, before saving
+{% endhint %}
+
