@@ -8,7 +8,7 @@ description: >-
 
 Returns the last events for the given FWOT.
 
-`await WILCO.getEventsForFwot("FW-FAN", 3, 'days', '2002-04-03T02:44:00', function(events) { console.log(events); })`
+`await WILCO.getEventsForFwot("FW-FAN", 3, 'days', '2002-04-03T02:44:00', {tag: 'ATA36'}, function(fwot, events) { console.log(events); })`
 
 * reg: the FWOT reg
 * lastCount: the count of time units you want back in time
