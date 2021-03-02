@@ -99,4 +99,5 @@
   * [Get the last UPLINK message with filters](code-snippets/get-the-last-uplink-message-with-filters.md)
   * [Automatically handle faultcodes according to a doc and a regex](code-snippets/automatically-handle-faultcodes-according-to-a-doc-and-a-regex.md)
   * [Get the current airport](code-snippets/get-the-current-airport.md)
+  * [goto a page from a dashboard](code-snippets/goto-a-page-from-a-dashboard.md)
 
