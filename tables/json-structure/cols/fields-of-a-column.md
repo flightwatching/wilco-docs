@@ -26,7 +26,7 @@ type is the type of the value held by the param. it can be `tags`, `fwot`, `text
 
 ![tags: all the tags of the filter are displayed. click on it to \(un\)select it](../../../.gitbook/assets/image%20%289%29.png)
 
-![list: the selected tags are displayed. The others are collapsed in a droplist. Usefull when there are many elements to filter on](../../../.gitbook/assets/image%20%285%29.png)
+![list: the selected tags only are displayed. The others are collapsed in a dropdown list. Usefull when there are many elements](../../../.gitbook/assets/image%20%285%29.png)
 
 ![fwot: displays the fwot with this precreated format. Click brings the user to the timeline @ correct time](../../../.gitbook/assets/image%20%287%29.png)
 
