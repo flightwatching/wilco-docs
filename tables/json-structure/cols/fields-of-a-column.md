@@ -6,8 +6,6 @@ A text field that will be the displayed text in the header of the table
 Title is optional. If not set, the param is displayed
 {% endhint %}
 
-
-
 ## param
 
 A string that is the field of the event/sample to display. 
@@ -24,7 +22,15 @@ Authorized values are `event` or `sample`. if `event`, then the param is a field
 
 ## type
 
-type is the type of the value held by the param. it can be `tags`, `fwot`, `text`, `date`
+type is the type of the value held by the param. it can be `tags`, `fwot`, `text`, `date`, `list`
+
+![tags: all the tags of the filter are displayed. click on it to \(un\)select it](../../../.gitbook/assets/image%20%289%29.png)
+
+![list: the selected tags are displayed. The others are collapsed in a droplist. Usefull when there are many elements to filter on](../../../.gitbook/assets/image%20%285%29.png)
+
+![fwot: displays the fwot with this precreated format. Click brings the user to the timeline @ correct time](../../../.gitbook/assets/image%20%287%29.png)
+
+![date: date comes along with format field](../../../.gitbook/assets/image%20%288%29.png)
 
 ## filter
 
@@ -40,5 +46,7 @@ for tags type, the filter limits the list to the given array of strings.
 
 a boolean \(true or false\) saying that the cell can be edited or not. Some of the fields are not editable by nature: the id of a event, the fwot, etc... In that case, the field is ignored
 
+## format
 
+a string that describes the format of the `date` The format syntax is described [here](https://momentjs.com/docs/#/displaying/)
 
