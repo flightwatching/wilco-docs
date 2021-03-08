@@ -1,12 +1,12 @@
 # Fields of a column
 
-## title
-
 A text field that will be the displayed text in the header of the table
 
 {% hint style="info" %}
-Title is optional. Sometimes you want to dig into the table directly
+Title is optional. If not set, the param is displayed
 {% endhint %}
+
+
 
 ## param
 
