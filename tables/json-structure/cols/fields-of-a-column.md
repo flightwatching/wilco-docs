@@ -50,3 +50,7 @@ a boolean \(true or false\) saying that the cell can be edited or not. Some of t
 
 a string that describes the format of the `date` The format syntax is described [here](https://momentjs.com/docs/#/displaying/)
 
+## pattern
+
+A [regex](https://www.w3schools.com/js/js_regexp.asp) that limits the possibilities for the edition of a cell. For example, force a number, uppercases, a count of letters, etc...
+
