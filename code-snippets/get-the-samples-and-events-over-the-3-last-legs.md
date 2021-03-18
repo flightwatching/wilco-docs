@@ -1,3 +1,7 @@
+---
+description: Not easy to grab the history and play on a time range. Example
+---
+
 # get the samples and events over the 3 last legs
 
 ```javascript
