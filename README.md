@@ -1,7 +1,7 @@
 ---
 description: >-
   This document is the reference to develop over WILCO SDK  and create your
-  visualisations (dashboards) and the automations (business rules named IFT).
+  visualisations (dashboards) and automations (business rules named IFT).
 ---
 
 # Introduction
