@@ -28,8 +28,7 @@ var fromDate = moment.utc(cms.computedDate).add(-2, 'days');
 
 //FW.getEvents(reg, from, to, withDismissed, showHidden, severities, tags, count)
 //we search the events where tags are in "2420FJV7", "2420FJV8" in the last 2 days
-const req = await FW.getEvents(cms.reg, fromDate, toDate, true, false, null, ["2420FJV7", "2420FJV8" ], 2);
-const events = req.data.events;
+const events = await FW.getEvents(cms.reg, fromDate, toDate, true, false, null, ["2420FJV7", "2420FJV8" ], 2);
 if (events.length>0) { // if we find at least 1 event
   await FW.notify ("bart.simpson@my-company.com",
              "LGB possible distress",
