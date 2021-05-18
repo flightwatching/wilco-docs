@@ -22,7 +22,46 @@ await FW.email (dest, subject, options = {cc:null, bcc:null, body:{text:""}, att
     * `docId`: the id of a document in wilco \(see /fleet/admin/docs\). The document is either a static file or a template \(see `variables`\)
     * `variables`: a key value structure that will be passed to the doc \(`docId`\) to instanciate the template
 
-Examples of calls:
+## Example of template doc
+
+Note that the template email that is hosted by the `docId` is a groovy template. It means that the variables can be referenced like this:
+
+```javascript
+await FW.email ("laurel@hal-roach.com, hardy@hal-roach.com", 
+"the subject", {
+body: {
+    docId: 83391, 
+    variables: {
+        rep: "POST FLIGHT REPORT", 
+        mm: {code: "1234F567", text: "PROBLEM WITH..."},
+        rev: "XX-YYYY",
+        FIM: "AA-BB-CC"
+    }
+} 
+})
+```
+
+```markup
+<h3>
+	<p>${subject}</p>
+</h3>
+<hr>
+<p>${sub} </p>
+<hr>
+<h3><i>EVENT DESCRIPTION</i></h3>
+<ul>
+	<li><i>REPORT:</i> ${rep} </li>
+    <li><i>Maintenance Message:</i> ${mm?.code} : ${mm?.text}</li>
+</ul>
+<h3><i>FOR REFERENCE ONLY</i></h3>
+<i>Per Fault Isolation Manual: Rev Date </i>: ${rev}
+<ul>
+    <li><p><i>Associated FIM TASK:</i> ${FIM}</p></li>
+</ul>
+<hr>    
+```
+
+## Examples of calls:
 
 * simplest call: `await FW.email ("laurel@hal-roach.com, hardy@hal-roach.com", "the subject")`
 * simplest call with body: `await FW.email ("laurel@hal-roach.com, hardy@hal-roach.com", "the subject", {body: {text: "this is the body"} })`
