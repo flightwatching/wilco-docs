@@ -32,7 +32,5 @@ The most important part is `attributs de présentation` or `presentation attribu
 
 ## Update the SVG in WILCO
 
-In the edit page of the dashboard, click on import and save. The new dashboard will be in place. You can verfy it works fine by verifying the 
-
-_$_ are present in the list of buttons and that the size of the dashboard is correct and identical to the illustrator one.
+In the edit page of the dashboard, click on import and save. The new dashboard will be in place. You can verfy it works fine by verifying the `_anim` are present in the list of buttons and that the size of the dashboard is correct and identical to the illustrator one.
 
