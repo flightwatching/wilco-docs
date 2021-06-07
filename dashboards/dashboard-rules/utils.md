@@ -20,3 +20,25 @@ if (getTag('IFT_MAIL', EVT)) {
 `EVT` is a variable that exists on all the dashboards related to an event. it does not exists on fleet dashboards, for example. But the event could come from another request
 {% endhint %}
 
+## clickForTrend
+
+## updateFwotProperty
+
+## addSamples
+
+Allows to add some samples injected as variables at runtime.
+
+```javascript
+    this.addSamples(a.hits.hits.map (h=>{
+      return {
+        value: "the value",
+        name: 'FWPS_L',
+        date: moment("1973-01-01")
+      };
+    })); // FWPS_L will be injected in the rule.
+```
+
+```javascript
+my_anim.display(FWPS_L); // FWPS_L exists now.
+```
+
