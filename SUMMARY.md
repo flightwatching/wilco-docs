@@ -37,6 +37,7 @@
 * [Tables](tables/README.md)
   * [JSON structure](tables/json-structure/README.md)
     * [Title](tables/json-structure/title.md)
+    * [filters](tables/json-structure/filters.md)
     * [cols](tables/json-structure/cols/README.md)
       * [Fields of a column](tables/json-structure/cols/fields-of-a-column.md)
     * [Example](tables/json-structure/example.md)
