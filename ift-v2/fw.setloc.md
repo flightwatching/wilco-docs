@@ -13,6 +13,7 @@ If `locOrReg` is a string, then it should be the registration of any other fwot.
 `reg` is the registration of the fwot we want to put the location on. If not set, then the event's fwot is updated.
 
 ```javascript
-await FW.setLoc('VHHH') // would put the current fwot to the lication of the airport of HongKong
+await FW.setLoc('VHHH') // would put the current fwot to the location of the airport of HongKong
+await FW.setLoc([21, 31, 41], null, "FW-FAN") // would put the fwot named FW-FAN to the location [21, 31, 41] 
 ```
 
