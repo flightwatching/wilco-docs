@@ -14,6 +14,6 @@ If `locOrReg` is a string, then it should be the registration of any other fwot.
 
 ```javascript
 await FW.setLoc('VHHH') // would put the current fwot to the location of the airport of HongKong
-await FW.setLoc([21, 31, 41], null, "FW-FAN") // would put the fwot named FW-FAN to the location [21, 31, 41] 
+await FW.setLoc([21, 31, 40000], null, "FW-FAN") // would put the fwot named FW-FAN to the location [21, 31, 41] 
 ```
 
