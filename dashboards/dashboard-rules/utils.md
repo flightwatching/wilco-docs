@@ -42,3 +42,21 @@ Allows to add some samples injected as variables at runtime.
 my_anim.display(FWPS_L); // FWPS_L exists now.
 ```
 
+## on new messages
+
+Allows to react on new messages, whatever the fwot it is linked on.
+
+onNewMessages takes a function as a parameter that describes the behavior when a new message is sent. You may filter out all the messages that are not related to the current fwot.
+
+{% hint style="info" %}
+Historically, it was bulk of events that were passed. Now it is a single event. You can therefore access to the first element of the array, and the array length is 1 only.
+{% endhint %}
+
+```javascript
+onNewMessages(evts=>{ 
+  if (evts[0].reg==EVT.reg) {
+    my_anim.go().text(evts[0].title); 
+  }
+});
+```
+
