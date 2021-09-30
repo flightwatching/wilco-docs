@@ -24,6 +24,8 @@ Setup a discrete output scale
 
 `const crColors = d3.scale.threshold().domain([0,70,75,100]).range(['red', 'darkorange', 'yellow', 'grey']);`
 
+**Select or selectAll**? how to modify children elements of a data\(\) selection? see [here](https://bost.ocks.org/mike/nest/#conclusion)
+
 ## WILCO
 
 ## CHROME
