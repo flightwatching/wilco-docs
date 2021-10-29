@@ -109,6 +109,7 @@
   * [goto a page from a dashboard](code-snippets/goto-a-page-from-a-dashboard.md)
   * [get the samples and events over the 3 last legs](code-snippets/get-the-samples-and-events-over-the-3-last-legs.md)
   * [Webhooks: Get data from typeform and post it to ELK](code-snippets/webhooks-get-data-from-typeform-and-post-it-to-elk.md)
+* [Download a file from a SVG click](download-a-file-from-a-svg-click.md)
 * [Clone a SVG template with D3](clone-a-svg-template-with-d3.md)
 * [Machine learning with DSS](machine-learning-with-dss/README.md)
   * [Wilco ML: Xgboost](machine-learning-with-dss/wilco-ml-xgboost/README.md)
