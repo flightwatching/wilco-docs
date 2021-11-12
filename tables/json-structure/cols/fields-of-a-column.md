@@ -48,6 +48,39 @@ for tags type, the filter limits the list to the given array of strings.
 
 a boolean (true or false) saying that the cell can be edited or not. Some of the fields are not editable by nature: the id of a event, the fwot, etc... In that case, the field is ignored
 
+## askfor
+
+A list of questions to ask the user. Each entry will lead to a popup that will help the user to enter a text. This list of responses are transmitted to the `onedit`payload as `askfor` structures
+
+* `id`: an id of the question that will be passed to the onedit payload
+* `question`: the text question as it will appear in the popup box. This field is optional
+* `default`: a default text that will fill the prompt. This field is optional
+
+```json
+    {
+      "title": "Status",
+      "type": "list",
+      "param": "tags",
+      "filter": [
+        "ON",
+        "OFF"
+      ],
+      "behavior": "RADIO",
+      "source": "event",
+      "editable": true,
+      "askfor": [
+        {
+          "id": "switchId",
+          "question": "give me the reason",
+          "default": "As per documentation"
+        }
+      ],
+      "onedit": "layouts/webhook/d42fff49-a9cf-4092-a619-431d0e2a056c"
+    },
+```
+
+![](<../../../.gitbook/assets/image (17).png>)
+
 ## onedit
 
 a string which is the webhook that will be called when the cell is edited (at the end of the process).  It should be a WEB connector layout. The webhook is called (POST) with the `eventId` in the query parameters, and a payload (see below):
@@ -61,6 +94,7 @@ The payload is the following:
     column: h, //the current column definition (with all the fields described in this documentation
     action: action, //can be TAG or UNTAG
     data: tag, // the current tag being set
+    askfor: [{id:'dez', response:'resp1'}, ...], // the list of answers (see askfor)
     user: user, // the current user (login, role...)
     eventBundleId: // the current event bundle id
 }

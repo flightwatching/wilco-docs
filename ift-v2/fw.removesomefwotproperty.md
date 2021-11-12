@@ -1,10 +1,9 @@
 ---
-description: 'FW.removeSomeFwotProperty(reg, name)'
+description: FW.removeSomeFwotProperty(reg, name)
 ---
 
 # FW.removeSomeFwotProperty
 
-removes a property for a FWOT \(reg\)
+removes a property for a FWOT (reg)
 
-###  ``
-
+### `` ``

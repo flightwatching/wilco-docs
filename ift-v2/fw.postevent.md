@@ -8,7 +8,7 @@ posts an event. There are help functions to make it easier.
 
 The eventV3IO complies to the definition found [here](https://github.com/flightwatching/wilco-api/blob/master/java/com/fw/wilco/api/EventV3IO.java)
 
-When creating a date, we first check if the string matches known [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) formats, we then check if the string matches the [RFC 2822](https://tools.ietf.org/html/rfc2822#section-3.3) Date time format before dropping to the fall back of new Date\(string\) if a known format is not found.
+When creating a date, we first check if the string matches known [ISO 8601](https://en.wikipedia.org/wiki/ISO\_8601) formats, we then check if the string matches the [RFC 2822](https://tools.ietf.org/html/rfc2822#section-3.3) Date time format before dropping to the fall back of new Date(string) if a known format is not found.
 
 Example:
 
@@ -29,5 +29,4 @@ if (hour>=8&&hour<=19) {
 FW.postEvent(event)
 ```
 
-###  ``
-
+### `` ``

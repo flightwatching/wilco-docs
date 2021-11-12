@@ -16,7 +16,7 @@ var EGTdiff = Math.abs(+EGT_1-EGT_2);
 ```
 
 {% hint style="info" %}
-If the name of the variable cannot be a javascript variable \(contains spaces, is only a sequence of numbers, contains special characters\), this variable is not created.n any case, the sample can be accessed with the `FW` object. And this time it is the sample as an object with [those fields](https://github.com/flightwatching/wilco-api/blob/master/java/com/fw/wilco/api/SampleV3IO.java)
+If the name of the variable cannot be a javascript variable (contains spaces, is only a sequence of numbers, contains special characters), this variable is not created.n any case, the sample can be accessed with the `FW` object. And this time it is the sample as an object with [those fields](https://github.com/flightwatching/wilco-api/blob/master/java/com/fw/wilco/api/SampleV3IO.java)
 {% endhint %}
 
 You can for example do this:
@@ -30,5 +30,4 @@ if (FW["EGT_1"].state=="VALID" && FW["EGT_2"].state=="VALID" ) {
 }
 ```
 
-###  ``
-
+### `` ``

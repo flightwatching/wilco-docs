@@ -1,10 +1,10 @@
 ---
-description: 'FW.notify(who, subject, body)'
+description: FW.notify(who, subject, body)
 ---
 
-# FW.notify &lt;deprecated&gt;
+# FW.notify \<deprecated>
 
-Sends an e-mail to `who` with subject and eventually a body. A signature is always added to the message. It can be overridden with the AppConfig property `MAIL_TEMPLATE` using the groovy syntax \([cheatsheet](https://www.playframework.com/documentation/1.5.x/cheatsheet/templates)\). Few parameters are available.
+Sends an e-mail to `who` with subject and eventually a body. A signature is always added to the message. It can be overridden with the AppConfig property `MAIL_TEMPLATE` using the groovy syntax ([cheatsheet](https://www.playframework.com/documentation/1.5.x/cheatsheet/templates)). Few parameters are available.
 
 ```groovy
 Check ${msg.sumUp} details <a href="${url}">here</a>
@@ -24,5 +24,4 @@ await FW.notify('support@flightwatching.com', //recipient list
 * `subject`: the subject of the email
 * `body`: the content of the message.
 
-###  ``
-
+### `` ``

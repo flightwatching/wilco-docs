@@ -10,5 +10,4 @@ description: >-
 
 the same as [`getEventsForFwot`](wilco.geteventsforfwot.md) but with min/max dates. `minDate` and `maxDate` are [moment](libraries.md) objects
 
-###  ``
-
+### `` ``
