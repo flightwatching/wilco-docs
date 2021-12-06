@@ -22,6 +22,8 @@ You can also specify an array of strings. In that case, the fields are tried fro
 
 Authorized values are `event` or `sample`. if `event`, then the param is a field of the event. If `sample`, then it is the name of a sample that belongs to the event
 
+The event is an `EventV3IO`. All the fields are accessible, and the fwot itself is injected by WILCO. You can use for instance `param: computedDate`, or `param: fwot.type`
+
 ## type
 
 type is the type of the value held by the param. it can be `tags`, `fwot`, `text`, `date`, `list`
@@ -85,7 +87,7 @@ A list of questions to ask the user. Each entry will lead to a popup that will h
 
 a string which is the webhook that will be called when the cell is edited (at the end of the process).  It should be a WEB connector layout. The webhook is called (POST) with the `eventId` in the query parameters, and a payload (see below):
 
-if `onedit: layouts/webhook/XXX-a9cf-4092-a619-431d0e2a056c ` wilco calls \`POST `` layouts/webhook/XXX-a9cf-4092-a619-431d0e2a056c?eventId=263572` `` where `263572` is the event id of the current line displayed
+if `onedit: layouts/webhook/XXX-a9cf-4092-a619-431d0e2a056c` wilco calls \`POST `` layouts/webhook/XXX-a9cf-4092-a619-431d0e2a056c?eventId=263572` `` where `263572` is the event id of the current line displayed
 
 The payload is the following:
 
