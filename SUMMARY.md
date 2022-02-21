@@ -115,3 +115,9 @@
   * [Wilco ML: Xgboost](machine-learning-with-dss/wilco-ml-xgboost/README.md)
     * [Step 1: Deployment of an XGBoost model from Dataiku to Wilco](machine-learning-with-dss/wilco-ml-xgboost/step-1-deployment-of-an-xgboost-model-from-dataiku-to-wilco.md)
     * [Step 2 : Using the XGBoost prediction model on Wilco](machine-learning-with-dss/wilco-ml-xgboost/step-2-using-the-xgboost-prediction-model-on-wilco.md)
+
+## 🔌 Plugins
+
+* [Fuelsave plugin](plugins/fuelsave-plugin/README.md)
+  * [Minimum requirements](plugins/fuelsave-plugin/minimum-requirements.md)
+  * [Configuration](plugins/fuelsave-plugin/configuration.md)
