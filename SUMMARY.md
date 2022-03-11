@@ -48,6 +48,7 @@
   * [current Fwot](ift-v2/current-fwot.md)
   * [Samples](ift-v2/samples.md)
   * [FW.api](ift-v2/fw.api.md)
+  * [FW.http](ift-v2/fw.http.md)
   * [FW.getEvent](ift-v2/fw.getevent.md)
   * [FW.getOtherEvent](ift-v2/fw.getotherevent.md)
   * [FW.getEvents](ift-v2/fw.getevents.md)
