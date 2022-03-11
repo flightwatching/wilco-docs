@@ -8,6 +8,7 @@
     * [Libraries](dashboards/dashboard-rules/libraries.md)
     * [Variables](dashboards/dashboard-rules/variables.md)
     * [Utils](dashboards/dashboard-rules/utils.md)
+    * [Debugging the rules](dashboards/dashboard-rules/debugging-the-rules.md)
     * [Graphs](dashboards/dashboard-rules/graphs/README.md)
       * [creation of the graph](dashboards/dashboard-rules/graphs/creation-of-the-graph.md)
       * [Set the title of the graph](dashboards/dashboard-rules/graphs/set-the-title-of-the-graph.md)
