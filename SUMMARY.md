@@ -121,6 +121,7 @@
 
 ## 🔌 Plugins
 
+* [B787 health monitoring](plugins/b787-health-monitoring.md)
 * [Fuelsave plugin](plugins/fuelsave-plugin/README.md)
   * [Minimum requirements](plugins/fuelsave-plugin/minimum-requirements.md)
   * [Configuration](plugins/fuelsave-plugin/configuration.md)
