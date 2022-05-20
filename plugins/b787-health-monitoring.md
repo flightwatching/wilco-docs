@@ -1,5 +1,7 @@
 ---
-description: The APU APS5000 constants defaults
+description: >-
+  The APU APS5000 constants defaults are presented below. If there is a need to
+  change the value of any constant - go to General Admin -> Constants.
 ---
 
 # B787 constants
