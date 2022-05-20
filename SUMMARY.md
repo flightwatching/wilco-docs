@@ -121,7 +121,9 @@
 
 ## 🔌 Plugins
 
-* [B787 health monitoring](plugins/b787-health-monitoring.md)
+* [APU Health Monitoring plugin](plugins/apu-health-monitoring-plugin/README.md)
+  * [B787 Health Monitoring](plugins/apu-health-monitoring-plugin/b787-health-monitoring/README.md)
+    * [B787 constants](plugins/apu-health-monitoring-plugin/b787-health-monitoring/b787-constants.md)
 * [Fuelsave plugin](plugins/fuelsave-plugin/README.md)
   * [Minimum requirements](plugins/fuelsave-plugin/minimum-requirements.md)
   * [Configuration](plugins/fuelsave-plugin/configuration.md)

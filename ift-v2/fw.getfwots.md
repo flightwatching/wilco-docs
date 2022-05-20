@@ -8,7 +8,7 @@ description: Accesses all the Fwots of Wilco
 You have to call this function with the `await` javascript keyword in order to be sure to have the list from the server to continue
 {% endhint %}
 
-You can filter it with [\_](http://underscorejs.org):
+You can filter it with [\_](http://underscorejs.org/):
 
 ```javascript
 const a320s = _.where(await FW.getFwots(), {type:'A320'});

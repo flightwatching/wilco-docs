@@ -2,7 +2,7 @@
 
 ## Download the SVG
 
-In the edit page of the dashboard you can get into your computer the latest version of the SVG by clicking _download SVG. _The SVG should now be in your default download folder (`<name-of-dashboard>.svg`)
+In the edit page of the dashboard you can get into your computer the latest version of the SVG by clicking _download SVG._ The SVG should now be in your default download folder (`<name-of-dashboard>.svg`)
 
 ![](<../../.gitbook/assets/image (11).png>)
 
