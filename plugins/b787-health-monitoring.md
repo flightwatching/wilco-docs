@@ -11,5 +11,5 @@ description: >-
 | HMS\_APS5000\_LIMIT\_GEN\_OIL\_DP     | <ul><li>threshold used at DB aps5000 cross section (GenDP_anim)</li></ul>                                                                        | 20    |
 | HMS\_APS5000\_LIMIT\_PEAK\_EGT\_DELTA | <ul><li>threshold used at DB aps5000 cross section (EGTsensor_anim)</li></ul>                                                                    | 79.5  |
 | HMS\_APS5000\_LIMIT\_REP202\_NO\_DATA | <ul><li>value in DAYS</li></ul><ul><li>threshold used at layout OOOI-off</li><li>send indication that APU is not sending data.</li></ul>         | 2     |
-| HMS\_APS5000\_REFILL\_THRESHOLD\_OIL  | <ul><li>value in quarters</li><li>refill threshold used in calculation of predictive alert for oil consumption at REP202</li></ul>               | 0.5   |
+| HMS\_APS5000\_THRESHOLD\_REFILL\_OIL  | <ul><li>value in quarters</li><li>refill threshold used in calculation of predictive alert for oil consumption at REP202</li></ul>               | 0.5   |
 | HMS\_APS5000\_LIMIT\_TIME\_RTL        | <ul><li>value in seconds</li><li>time ready to load threshold used in calculation of predictive alert for time ready to load at REP202</li></ul> | 50    |
