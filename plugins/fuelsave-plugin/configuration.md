@@ -24,8 +24,8 @@ You must define the following constants:
 
 You must also add the following documents:
 
-| Name                                                                                                 | Definition                                                                                                              |   |
-| ---------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | - |
-| [FW\_FUELSAVE\_OVERRUN\_EMAIL\_TEMPLATE](https://plugins.flightwatching.com/fleet/admin/docs/111935) | HTML template for the email that is sent to the FUELSAVE_DL_MAIL recipient (see constants) when an overrun is triggered |   |
-| [FW\_FUELSAVE\_APU\_CONSUMPTION](https://plugins.flightwatching.com/fleet/admin/docs/111936)         | Reference document that defines the fuel consumption for each APU and APU mode                                          |   |
-|                                                                                                      |                                                                                                                         |   |
+| Name                                                                                                 | Definition                                                                                                                  |   |
+| ---------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | - |
+| [FW\_FUELSAVE\_OVERRUN\_EMAIL\_TEMPLATE](https://plugins.flightwatching.com/fleet/admin/docs/111935) | HTML template for the email that is sent to the FUELSAVE\__DL\__MAIL recipient (see constants) when an overrun is triggered |   |
+| [FW\_FUELSAVE\_APU\_CONSUMPTION](https://plugins.flightwatching.com/fleet/admin/docs/111936)         | Reference document that defines the fuel consumption for each APU and APU mode                                              |   |
+|                                                                                                      |                                                                                                                             |   |
