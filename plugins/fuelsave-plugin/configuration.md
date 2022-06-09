@@ -29,3 +29,11 @@ You must also add the following documents:
 | FW\_FUELSAVE\_OVERRUN\_EMAIL\_TEMPLATE | HTML template for the email that is sent to the FUELSAVE\__DL\__MAIL recipient (see constants) when an overrun is triggered |   |
 | FW\_FUELSAVE\_APU\_CONSUMPTION         | Reference document that defines the fuel consumption for each APU and APU mode                                              |   |
 |                                        |                                                                                                                             |   |
+
+Finally, you must set/update the two following app config:
+
+| Name       | Value |
+| ---------- | ----- |
+| DO\_UPLINK | true  |
+| SEND\_MAIL | true  |
+|            |       |
