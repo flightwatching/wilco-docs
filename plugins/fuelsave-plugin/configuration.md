@@ -18,7 +18,7 @@ You must define the following constants:
 | FUELSAVE\_OVERRUN\_MAINTENANCE  | 60                | Max APU runtime in maintenance mode before generating an overrun  |
 | FUELSAVE\_OVERRUN\_ARRIVAL      | 15                | Max APU runtime in arrival mode before generating an overrun      |
 | APU\_FUEL\_TO\_CO2              | 3.76              | Physic constant, please do not change : Kg of CO2 per Kg of fuel  |
-| APU\_FUEL\_COST                 | 1.12              | Fuel cost, in $/l                                                 |
+| APU\_FUEL\_COST                 | 1.12              | Fuel cost, in $/kg                                                |
 | UPLINKS\_INTERVAL               | 10                | Please do not modify                                              |
 | FUELSAVE\_DL\_MAIL              | \[]               | Recipients of overrun alerts                                      |
 
