@@ -12,3 +12,5 @@ Fwot properties
 | ApuInstalledDate        | YYYY-MM-DD                                      | value used to display  on DB: apu configuration                   |
 | ApuHoursAtInstallation  | number                                          | value used to calculate TSI and display  on DB: apu configuration |
 | ApuCyclesAtInstallation | number                                          | value used to calculate CSI and display  on DB: apu configuration |
+| ApuHoursSinceRepair     | number                                          | value used to calculate TSR and display  on DB: apu configuration |
+| ApuCyclesSinceRepair    | number                                          | value used to calculate CSR and display  on DB: apu configuration |
