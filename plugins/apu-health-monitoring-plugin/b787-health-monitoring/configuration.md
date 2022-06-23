@@ -1,10 +1,18 @@
----
-description: >-
-  The APU APS5000 constants defaults are presented below. If there is a need to
-  change the value of any constant - go to General Admin -> Constants.
----
+# Configuration
 
-# B787 constants
+This plugin is not enabled by default. You can enable it by FWOT (aircraft). Here is the list of properties you need to set in order to make the plugin work
+
+Fwot props:\
+
+
+| Property name     | Value                                 |                                                                                                                              |
+| ----------------- | ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| FwFuelsaveEnabled | true                                  | If not exactly `true`, then the plugin is not enabled for this FWOT                                                          |
+| ApuType           | APS3200 or APS5000 (work in progress) | The APU type. It is used to compute specific consumptions and manage the different APU modes. The exhaustive list is here... |
+
+You must define the following constants:
+
+
 
 | Constants Name                        | Description                                                                                                                                                        | Value |
 | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----- |
@@ -19,3 +27,22 @@ description: >-
 | REVIMA                                | <ul><li>value in ["email1", "email2"]</li></ul>                                                                                                                    |       |
 | CLIENT\_ENG                           | <ul><li>value in ["email1", "email2"]</li><li>HMS APU Power Plant engineers to be alerted</li></ul>                                                                |       |
 | CLIENT\_MCC                           | <ul><li>value in ["email1", "email2"]</li><li>HMS APU Maintenance Control Center Engineers to be alerted</li></ul>                                                 |       |
+
+You must also add the following documents:
+
+
+
+| Name                                    | Description                                                                                                            | data format |
+| --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ----------- |
+| FW\_HMS\_B787\_MAINTWD\_DECODING        | correlation table between MAINTWDs, Maintenance Messages, Maintenance Messages Description, FIM task and to who alert. | csv         |
+| FW\_HMS\_B787\_MAINTWD\_EMAIL\_TEMPLATE | email template that is used to send alert about any ATA49 maintenance message triggered at CMS report.                 | html        |
+| FW\_HMS\_B787\_ANOMALY\_EMAIL\_TEMPLATE | email template that is used to send alert about any anomaly (predictive or other)                                      | html        |
+|                                         |                                                                                                                        |             |
+
+Finally, you must set/update the two following app config:
+
+| Name       | Value |
+| ---------- | ----- |
+| DO\_UPLINK | true  |
+| SEND\_MAIL | true  |
+|            |       |
