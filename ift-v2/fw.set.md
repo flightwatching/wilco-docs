@@ -19,9 +19,9 @@ Note that if the sample is added to an other `eventId`, then the IFTs of the oth
 {% endhint %}
 
 ```javascript
-if (APUBV=="-"||APUBV=='X') {
-  await FW.set("LS_APU_NA",0);
-} else if(+APUBV==1) {
-	await FW.set("LS_APU_NA",100);
-}
+    const d = moment.utc(FW.getEvent().computedDate);
+    await FW.set('__SNAPSHOT', 'PREV', moment(d).add(-1, 'seconds'));
+    await FW.set('__SNAPSHOT', 'MES1');
+    await FW.set('__SNAPSHOT', 'MES2', moment(d).add(1, 'seconds'));
+    await FW.set('__SNAPSHOT', 'NOLOAD', moment(d).add(2, 'seconds'));
 ```
