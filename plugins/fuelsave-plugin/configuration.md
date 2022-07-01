@@ -24,11 +24,12 @@ You must define the following constants:
 
 You must also add the following documents:
 
-| Name                                   | Definition                                                                                                                  |   |
-| -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | - |
-| FW\_FUELSAVE\_OVERRUN\_EMAIL\_TEMPLATE | HTML template for the email that is sent to the FUELSAVE\__DL\__MAIL recipient (see constants) when an overrun is triggered |   |
-| FW\_FUELSAVE\_APU\_CONSUMPTION         | Reference document that defines the fuel consumption for each APU and APU mode                                              |   |
-|                                        |                                                                                                                             |   |
+| Name                                   | Definition                                                                                                                                                  |   |
+| -------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | - |
+| FW\_FUELSAVE\_OVERRUN\_EMAIL\_TEMPLATE | HTML template for the email that is sent to the FUELSAVE\__DL\__MAIL recipient (see constants) when an overrun is triggered                                 |   |
+| FW\_FUELSAVE\_GENERAL\_EMAIL\_TEMPLATE | new HTML template for the email that is sent to the FUELSAVE\__DLMAIL recipient (see constants) when an overrun is triggered/DUAL\_USE/Battery monitoring._ |   |
+| FW\_FUELSAVE\_APU\_CONSUMPTION         | Reference document that defines the fuel consumption for each APU and APU mode                                                                              |   |
+|                                        |                                                                                                                                                             |   |
 
 Finally, you must set/update the two following app config:
 
