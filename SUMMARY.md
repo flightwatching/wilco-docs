@@ -61,6 +61,7 @@
   * [FW.setFrom](ift-v2/fw.setfrom.md)
   * [FW.setTo](ift-v2/fw.setto.md)
   * [FW.setTitle](ift-v2/fw.settitle.md)
+  * [FW.setVisible](ift-v2/fw.setvisible.md)
   * [FW.setSeverity](ift-v2/fw.setseverity.md)
   * [FW.setComputedDate](ift-v2/fw.setcomputeddate.md)
   * [FW.setStyle](ift-v2/fw.setstyle.md)
