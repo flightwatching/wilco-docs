@@ -128,4 +128,7 @@
 * [Fuelsave plugin](plugins/fuelsave-plugin/README.md)
   * [Minimum requirements](plugins/fuelsave-plugin/minimum-requirements.md)
   * [Configuration](plugins/fuelsave-plugin/configuration.md)
+* [fw.taxi plugin](plugins/fw.taxi-plugin/README.md)
+  * [Minimum requirements](plugins/fw.taxi-plugin/minimum-requirements.md)
+  * [Configuration](plugins/fw.taxi-plugin/configuration.md)
 * [fw.turnaround](plugins/fw.turnaround.md)
