@@ -1,7 +1,7 @@
 ---
 description: >-
   FW.getEvents(reg, from, to, withDismissed, withHidden, severities, tags,
-  count)
+  count, filters)
 ---
 
 # FW.getEvents
@@ -13,11 +13,12 @@ requests the database for events filtered according to the parameter passed
 * `to` : the max date to search, moment or _YYYY-MM-DDTHH:mm:ss_ string format
 * `withDismissed` : include or not the dismissed events
 * `showHidden` : includes or not the hidden events
-* `severities`: an array of severities to narrow the search \(OR operator\). Severities are one of `IGNORE, CREW, WARNING, FAULT, ERROR, INFO`. If not passed or null, takes all the severities
-* `tags`: a list of tags to search for \(OR operator\).
-* `count`: the max count for the search \(throttled to 5000 elements max\)
+* `severities`: an array of severities to narrow the search (OR operator). Severities are one of `IGNORE, CREW, WARNING, FAULT, ERROR, INFO`. If not passed or null, takes all the severities
+* `tags`: a list of tags to search for (OR operator).
+* `count`: the max count for the search (throttled to 5000 elements max)
+* `filters`: an object that will append to the query all the URL params from the [API](https://app.swaggerhub.com/apis/flightwatching/wilco-api/3.0.0#/default/getFwotEvents)
 
-The call returns a promise that is catchable with .then\(\). the callback function returns a list of matching events. If an error occurs, the promise is catchable with .catch\(\)
+The call returns a promise that is catchable with .then(). the callback function returns a list of matching events. If an error occurs, the promise is catchable with .catch()
 
 ```javascript
 var cms=FW.getEvent();
@@ -37,4 +38,3 @@ if (events.length>0) { // if we find at least 1 event
 
 
 ```
-
