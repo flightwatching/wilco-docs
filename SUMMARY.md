@@ -122,9 +122,9 @@
 
 ## 🔌 Plugins
 
-* [APU Health Monitoring plugin](plugins/apu-health-monitoring-plugin/README.md)
-  * [Minimum requirements](plugins/apu-health-monitoring-plugin/minimum-requirements.md)
-  * [Configuration](plugins/apu-health-monitoring-plugin/configuration.md)
+* [fw.hms plugin](plugins/fw.hms-plugin/README.md)
+  * [Minimum requirements](plugins/fw.hms-plugin/minimum-requirements.md)
+  * [Configuration](plugins/fw.hms-plugin/configuration.md)
 * [fw.fuelsave plugin](plugins/fw.fuelsave-plugin/README.md)
   * [Minimum requirements](plugins/fw.fuelsave-plugin/minimum-requirements.md)
   * [Configuration](plugins/fw.fuelsave-plugin/configuration.md)
