@@ -7,6 +7,7 @@ Fwot props:\
 
 | Property Name           | Value                                           |                                                                                                            |
 | ----------------------- | ----------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| family                  | A320                                            | aircraft family                                                                                            |
 | ApuType                 | APS3200 or 131-9A or APS5000 (work in progress) | The APU type.                                                                                              |
 | ApuInstalledDate        | YYYY-MM-DD                                      | value used to display  on DB: apu configuration  (fw.hms-db\_fleet\_apu\_current\_config)                  |
 | ApuHoursAtInstallation  | number                                          | value used to calculate TSI and display  on DB: apu configuration (fw.hms-db\_fleet\_apu\_current\_config) |
