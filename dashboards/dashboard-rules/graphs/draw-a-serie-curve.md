@@ -1,4 +1,4 @@
-# draw a serie \(curve\)
+# draw a serie (curve)
 
 `drawSerie(name, data, opts)`
 
@@ -9,8 +9,9 @@
   * `autoScaleY`: The Y axis is recomputed to match the data.
   * `color`: the color as web color or RGB hex
   * `width`: the width
-  * `opacity`: the opacity of the curve \(0..1\)
+  * `opacity`: the opacity of the curve (0..1)
   * `type`: can be `AREA` or `LINE`. If not defined, then it is a line.
+  * style: is an object where you can add any attribute to fill the css style of the serie
+  * svg: is an object where you can add a path attribute of the serie (eg: dash...)
 
-#### 
-
+####
