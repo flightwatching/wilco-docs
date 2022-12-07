@@ -4,9 +4,9 @@ description: A  set of useful functions that are already packed for you
 
 # Utils
 
-## getTag\(tag, event\)
+## getTag(tag, event)
 
-If the tag is found in the event, then it is returned \(the String, that is equal to the `tag` parameter\). Else `null` is returned.
+If the tag is found in the event, then it is returned (the String, that is equal to the `tag` parameter). Else `null` is returned.
 
 ```javascript
 if (getTag('IFT_MAIL', EVT)) {
@@ -19,6 +19,12 @@ if (getTag('IFT_MAIL', EVT)) {
 {% hint style="info" %}
 `EVT` is a variable that exists on all the dashboards related to an event. it does not exists on fleet dashboards, for example. But the event could come from another request
 {% endhint %}
+
+## setTag(tag, event, toggleTags)
+
+This util sets a `tag` on the current event (but does not push it to the server)
+
+If the `toggleTags` are passed, they are all removed, exept `tag` which is set. It emulates a radio button behavior
 
 ## clickForTrend
 
@@ -59,4 +65,3 @@ onNewMessages(evts=>{
   }
 });
 ```
-
