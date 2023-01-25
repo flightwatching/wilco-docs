@@ -20,7 +20,7 @@ You must define the following _**Constants**_ to set the ALERTs notification:
 
 | Name        | Value                                                                                                                                | Airline                                                                |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------- |
-| REVIMA      | <p><em>value in ["email1", "email2"]</em></p><ul><li><em>REVIMA Fleet Management engineers to be alerted</em></li></ul>              | (_leave empty if you'd like to receive alerts from all your clients.)_ |
+| REVIMA      | <ul><li><em>value in ["email1", "email2"]</em></li><li><em>REVIMA  Fleet Management engineers to be alerted</em></li></ul>           | (_leave empty if you'd like to receive alerts from all your clients.)_ |
 | CLIENT\_ENG | <ul><li><em>value in ["email1", "email2"]</em></li><li><em>HMS APU Power Plant engineers to be alerted</em></li></ul>                | <p>AIR</p><p><em>(airline ICAO code)</em></p>                          |
 | CLIENT\_MCC | <ul><li><em>value in ["email1", "email2"]</em></li><li><em>HMS APU Maintenance Control Center Engineers to be alerted</em></li></ul> | <p>AIR</p><p><em>(airline ICAO code)</em></p>                          |
 
