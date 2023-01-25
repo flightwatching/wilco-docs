@@ -1,2 +1,0 @@
-# APU Health Monitoring plugin
-
