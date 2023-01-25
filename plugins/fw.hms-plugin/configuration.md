@@ -51,7 +51,9 @@ _NOTE: the following constants could be customised per Airline. Here below are d
 | HMS\_APS3200\_LIMIT\_MES\_DELTA\_OTA\_LCIT | <ul><li>value in degC</li><li>constant used in calculation of predictive alert for Oil Temperature</li></ul>                                                                   | 10     | APS3200         |
 | HMS\_131\_9A\_LIMIT\_MES\_DELTA\_OTA\_LCIT | <ul><li>value in degC</li><li>constant used in calculation of predictive alert for Oil Temperature</li></ul>                                                                   | 0.9    | 131-9A          |
 
-You must also add the following documents:
+
+
+You must also add the following _**Documents**_:
 
 
 
@@ -65,7 +67,9 @@ You must also add the following documents:
 | FW\_HMS\_A320\_ASD\_DECODING            | correlation table between APU Auto-shutdown Codes and to who alert.                                                    | csv         |
 | FW\_HMS\_A320\_ACW\_DECODING            | correlation table between APU Control Words for each APU type                                                          | csv         |
 
-Finally, you must set/update the two following app config:
+
+
+Finally, you must set/update the two following _**app config:**_
 
 | Name       | Value |
 | ---------- | ----- |
