@@ -18,14 +18,11 @@ This plugin is not enabled by default. You can enable it by FWOT (aircraft). Her
 
 You must define the following _**Constants**_ to set the ALERTs notification:
 
-| Name                                 | Value                                                                                                                                | Airline                                                              |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------- |
-| REVIMA                               | \["fleetmanagement@revima.com"]                                                                                                      |                                                                      |
-| _(do not change that constant name)_ | _value in \["email1", "email2"]_                                                                                                     | _leave empty if you'd like to receive alerts from all your clients._ |
-| CLIENT\_ENG                          | \["mail1@airline.com", "mail2@airline.com" ]                                                                                         | AIR                                                                  |
-| _(do not change that constant name)_ | <ul><li><em>value in ["email1", "email2"]</em></li><li><em>HMS APU Power Plant engineers to be alerted</em></li></ul>                | _(airline ICAO code)_                                                |
-| CLIENT\_MCC                          | \["mail1@airlineMCC.com", "mail2@airlineMCC.com" ]                                                                                   | AIR                                                                  |
-| _(do not change that constant name)_ | <ul><li><em>value in ["email1", "email2"]</em></li><li><em>HMS APU Maintenance Control Center Engineers to be alerted</em></li></ul> | _(airline ICAO code)_                                                |
+| Name        | Value                                                                                                                                | Airline                                                                |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------- |
+| REVIMA      | <p><em>value in ["email1", "email2"]</em></p><ul><li><em>REVIMA Fleet Management engineers to be alerted</em></li></ul>              | (_leave empty if you'd like to receive alerts from all your clients.)_ |
+| CLIENT\_ENG | <ul><li><em>value in ["email1", "email2"]</em></li><li><em>HMS APU Power Plant engineers to be alerted</em></li></ul>                | <p>AIR</p><p><em>(airline ICAO code)</em></p>                          |
+| CLIENT\_MCC | <ul><li><em>value in ["email1", "email2"]</em></li><li><em>HMS APU Maintenance Control Center Engineers to be alerted</em></li></ul> | <p>AIR</p><p><em>(airline ICAO code)</em></p>                          |
 
 
 
