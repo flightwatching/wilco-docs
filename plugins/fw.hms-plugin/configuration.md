@@ -2,8 +2,7 @@
 
 This plugin is not enabled by default. You can enable it by FWOT (aircraft). Here is the list of properties you need to set in order to make the plugin work
 
-Fwot props:\
-
+<mark style="color:purple;">**FWOT properties:**</mark>\ <mark style="color:purple;">****</mark>
 
 | Property Name           | Value                                           |                                                                                                            |
 | ----------------------- | ----------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
