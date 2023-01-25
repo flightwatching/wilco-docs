@@ -60,8 +60,10 @@ You must also add the following documents:
 | FW\_HMS\_B787\_MAINTWD\_DECODING        | correlation table between MAINTWDs, Maintenance Messages, Maintenance Messages Description, FIM task and to who alert. | csv         |
 | FW\_HMS\_B787\_MAINTWD\_EMAIL\_TEMPLATE | email template that is used to send alert about any ATA49 maintenance message triggered at CMS report.                 | html        |
 | FW\_HMS\_B787\_ANOMALY\_EMAIL\_TEMPLATE | email template that is used to send alert about any anomaly (predictive or other)                                      | html        |
+| FW\_HMS\_B787\_MODEL\_EGT               | predictive model for the APS5000 EGT                                                                                   | python      |
 | FW\_HMS\_A320\_FAULTCODES               | correlation table between Fault Codes, TSM task and to who alert.                                                      | csv         |
-|                                         |                                                                                                                        |             |
+| FW\_HMS\_A320\_ASD\_DECODING            | correlation table between APU Auto-shutdown Codes and to who alert.                                                    | csv         |
+| FW\_HMS\_A320\_ACW\_DECODING            | correlation table between APU Control Words for each APU type                                                          | csv         |
 
 Finally, you must set/update the two following app config:
 
