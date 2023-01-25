@@ -32,3 +32,13 @@ On B787 fleet:
 * fw.b787
 * fw.b787.hms
 
+
+
+on A380 fleet:
+
+* fw.acars.core
+* fw.acars.oooi
+* fw.adsb
+* fw.hms
+* fw.a380
+* fw.a380.hms
