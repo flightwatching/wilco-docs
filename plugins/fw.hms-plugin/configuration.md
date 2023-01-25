@@ -4,15 +4,15 @@ This plugin is not enabled by default. You can enable it by FWOT (aircraft). Her
 
 <mark style="color:purple;">**FWOT properties:**</mark>\ <mark style="color:purple;">****</mark>
 
-| Property Name           | Value                                           |                                                                                                            |
-| ----------------------- | ----------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| family                  | A320                                            | aircraft family                                                                                            |
-| ApuType                 | APS3200 or 131-9A or APS5000 (work in progress) | The APU type.                                                                                              |
-| ApuInstalledDate        | YYYY-MM-DD                                      | value used to display  on DB: apu configuration  (fw.hms-db\_fleet\_apu\_current\_config)                  |
-| ApuHoursAtInstallation  | number                                          | value used to calculate TSI and display  on DB: apu configuration (fw.hms-db\_fleet\_apu\_current\_config) |
-| ApuCyclesAtInstallation | number                                          | value used to calculate CSI and display  on DB: apu configuration (fw.hms-db\_fleet\_apu\_current\_config) |
-| ApuHoursSinceRepair     | number                                          | value used to calculate TSR and display  on DB: apu configuration (fw.hms-db\_fleet\_apu\_current\_config) |
-| ApuCyclesSinceRepair    | number                                          | value used to calculate CSR and display  on DB: apu configuration (fw.hms-db\_fleet\_apu\_current\_config) |
+| Property Name                           | Value                                  |                                                                                                            |
+| --------------------------------------- | -------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| <mark style="color:red;">ApuType</mark> | APS3200,  131-9A , APS5000, PW980, etc | The APU type. <mark style="color:red;">REQUIRED</mark> for the good functioning of dashboards.             |
+| family                                  | A320                                   | A320 aircraft family                                                                                       |
+| ApuInstalledDate                        | YYYY-MM-DD                             | value used to display  on DB: apu configuration  (fw.hms-db\_fleet\_apu\_current\_config)                  |
+| ApuHoursAtInstallation                  | number                                 | value used to calculate TSI and display  on DB: apu configuration (fw.hms-db\_fleet\_apu\_current\_config) |
+| ApuCyclesAtInstallation                 | number                                 | value used to calculate CSI and display  on DB: apu configuration (fw.hms-db\_fleet\_apu\_current\_config) |
+| ApuHoursSinceRepair                     | number                                 | value used to calculate TSR and display  on DB: apu configuration (fw.hms-db\_fleet\_apu\_current\_config) |
+| ApuCyclesSinceRepair                    | number                                 | value used to calculate CSR and display  on DB: apu configuration (fw.hms-db\_fleet\_apu\_current\_config) |
 
 You must define the following constants:
 
