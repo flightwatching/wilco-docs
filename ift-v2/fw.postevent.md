@@ -17,7 +17,8 @@ let event = new EventV3IO("MY_FWOT");
 event.addSample("extTemperature", 18) // would crate a parameter if not exists and a sample
 event.addSample("extHumidity", 40) // would crate a parameter if not exists and a sample
 event.title="Sensor temp="+18;
-event.layoutId=4917788; // the ID of the layout associated with the message (if you need it)
+event.layoutRef = "fw.turnaround-schedule"; // the layout ref
+//event.layoutId=4917788; // the ID of the layout associated with the message (if you need it)
 event.date = '1973-03-03'; // would set the computedDate
 //event.visible=false;
 var hour=moment().hours(); // you can use the moment library and the _ library
