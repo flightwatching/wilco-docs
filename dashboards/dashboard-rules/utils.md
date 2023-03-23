@@ -4,6 +4,28 @@ description: A  set of useful functions that are already packed for you
 
 # Utils
 
+## this.sort(k)
+
+On fleet dashboards, this feature allows you to sort the tiles according to k in ascending order.
+
+For example, if you want to sort the dashboards from the ones that have the most alerts to the less (count of alerts is in alertCount):
+
+```javascript
+//exemple 1: the count is already computed here
+const alertCount = myComputation();
+this.sort(-alertCount);
+
+//exemple 2: you have to access some request to count: don't forget the context
+const that = this;
+WILCO.getEventsStats(FWOT.reg, 
+  {
+    tags: ['HELLOOOO']
+    aggregates: [{kind: "TAG"}]
+  }).then(s=>{
+    that.sort(-s.HELLOOOO.count)
+  });
+```
+
 ## getTag(tag, event)
 
 If the tag is found in the event, then it is returned (the String, that is equal to the `tag` parameter). Else `null` is returned.
