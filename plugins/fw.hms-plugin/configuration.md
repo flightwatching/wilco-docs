@@ -9,11 +9,9 @@ This plugin is not enabled by default. You can enable it by FWOT (aircraft). Her
 | --------------------------------------- | -------------------------------------- | -------------------------------------------------------------------------------------------------- |
 | <mark style="color:red;">ApuType</mark> | APS3200,  131-9A , APS5000, PW980, etc | The APU type. <mark style="color:red;">REQUIRED</mark> for the correct functioning of dashboards.  |
 | family                                  | A320                                   | only for A320 aircraft family                                                                      |
-| ApuInstalledDate                        | YYYY-MM-DD                             | value used to display  on apu configuration dashboard                                              |
-| ApuHoursAtInstallation                  | number                                 | value used to calculate TSI and display  on apu configuration dashboard                            |
-| ApuCyclesAtInstallation                 | number                                 | value used to calculate CSI and display  on apu configuration dashboard                            |
-| ApuHoursSinceRepair                     | number                                 | value used to calculate TSR and display  on apu configuration dashboard                            |
-| ApuCyclesSinceRepair                    | number                                 | value used to calculate CSR and display  on apu configuration dashboard                            |
+| APU\_INSTALLATION\_DATE                 | YYYY-MM-DD                             | value used to display  on apu configuration dashboard                                              |
+| apu\_hrs\_at\_installation              | number                                 | value used to calculate TSI and display  on apu configuration dashboard                            |
+| apu\_cyc\_at\_installation              | number                                 | value used to calculate CSI and display  on apu configuration dashboard                            |
 
 
 
