@@ -139,4 +139,4 @@
 
 ## 👩🎓 User Manual
 
-* [Page 1](user-manual/page-1.md)
+* [Officer Manual](user-manual/officer-manual.md)
