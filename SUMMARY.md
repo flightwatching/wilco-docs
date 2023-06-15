@@ -136,3 +136,7 @@
   * [Minimum requirements](plugins/fw.taxi-plugin/minimum-requirements.md)
   * [Configuration](plugins/fw.taxi-plugin/configuration.md)
 * [fw.turnaround](plugins/fw.turnaround.md)
+
+## 👩🎓 User Manual
+
+* [Page 1](user-manual/page-1.md)
