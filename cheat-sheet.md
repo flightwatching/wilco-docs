@@ -24,11 +24,14 @@ Setup a discrete output scale
 
 `const crColors = d3.scale.threshold().domain([0,70,75,100]).range(['red', 'darkorange', 'yellow', 'grey']);`
 
-**Select or selectAll**? how to modify children elements of a data\(\) selection? see [here](https://bost.ocks.org/mike/nest/#conclusion)
+**Select or selectAll**? how to modify children elements of a data() selection? see [here](https://bost.ocks.org/mike/nest/#conclusion)
 
 ## WILCO
+
+groovy templates cheatsheet
+
+[https://www.playframework.com/documentation/1.5.x/cheatsheet/templates](https://www.playframework.com/documentation/1.5.x/cheatsheet/templates)
 
 ## CHROME
 
 Pour passer outre le CERT\_INVALID, notamment pour le développement: écrire "thisisunsafe" dans la fenetre de warning
-
