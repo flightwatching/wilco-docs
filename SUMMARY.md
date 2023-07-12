@@ -139,4 +139,14 @@
 
 ## 👩🎓 User Manual
 
-* [Officer Manual](user-manual/officer-manual.md)
+* [Officer Manual](user-manual/officer-manual/README.md)
+  * [wilco platform](user-manual/officer-manual/wilco-platform/README.md)
+    * [access](user-manual/officer-manual/wilco-platform/access/README.md)
+      * [create an account](user-manual/officer-manual/wilco-platform/access/create-an-account.md)
+      * [login](user-manual/officer-manual/wilco-platform/access/login.md)
+      * [login troubleshooting](user-manual/officer-manual/wilco-platform/access/login-troubleshooting.md)
+      * [logout](user-manual/officer-manual/wilco-platform/access/logout.md)
+    * [fleet dashboards](user-manual/officer-manual/wilco-platform/fleet-dashboards.md)
+    * [aircraft timeline](user-manual/officer-manual/wilco-platform/aircraft-timeline.md)
+    * [dashboards](user-manual/officer-manual/wilco-platform/dashboards.md)
+  * [open a ticket](user-manual/officer-manual/open-a-ticket.md)

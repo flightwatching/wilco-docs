@@ -5,17 +5,13 @@ This plugin is not enabled by default. You can enable it by FWOT (aircraft). Her
 Fwot props:\
 
 
-| Property name | Value |                                                                     |
-| ------------- | ----- | ------------------------------------------------------------------- |
-| FwTaxiEnabled | true  | If not exactly `true`, then the plugin is not enabled for this FWOT |
+<table><thead><tr><th>Property name</th><th width="150">Value</th><th></th></tr></thead><tbody><tr><td>FwTaxiEnabled</td><td>true</td><td>If not exactly <code>true</code>, then the plugin is not enabled for this FWOT</td></tr></tbody></table>
 
 You must define the following constants:
 
 You must also add the following documents:
 
-| Name | Definition |   |
-| ---- | ---------- | - |
-|      |            |   |
+<table><thead><tr><th width="409.3333333333333">Name</th><th width="336">Definition</th><th></th></tr></thead><tbody><tr><td></td><td></td><td></td></tr></tbody></table>
 
 Finally, you must set/update the two following app config:
 
