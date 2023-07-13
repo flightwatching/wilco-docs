@@ -1,5 +1,5 @@
 ---
-description: 'If you have an account already - login:'
+description: 'If you have an account :'
 ---
 
 # login

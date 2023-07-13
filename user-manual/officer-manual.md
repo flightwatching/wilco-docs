@@ -1,7 +1,7 @@
 ---
 description: FlightWatching Wilco Platform Officer User Guide
 cover: >-
-  ../../.gitbook/assets/Officer Guide - FlightWatching Wilco Platform v.2.0.001
+  ../.gitbook/assets/Officer Guide - FlightWatching Wilco Platform v.2.0.001
   (1).png
 coverY: -124.84266666666667
 layout:
