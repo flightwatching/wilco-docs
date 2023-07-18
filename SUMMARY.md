@@ -96,6 +96,7 @@
 * [Insert events](insert-events/README.md)
   * [elasticsearch aggregation](insert-events/elasticsearch-aggregation.md)
 * [General admin](general-admin/README.md)
+  * [UPLINK\_ROUTING](general-admin/uplink\_routing.md)
   * [SEND\_MAIL](general-admin/send\_mail.md)
   * [DO\_UPLINK](general-admin/do\_uplink.md)
   * [UPLINK\_PATH](general-admin/uplink\_path.md)
