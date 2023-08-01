@@ -43,7 +43,7 @@ Please, click on link in your email to **confirm** your registration. The link t
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2023-01-27 at 11.36.29.png" alt=""><figcaption></figcaption></figure>
 
-Your administrator will now grant you right to access to the platform. If you have any issue during that process, please, contact [support](http://localhost:5000/u/korrTCM5SdaFJ29m0LZWw07xLi82).&#x20;
+Your administrator will now grant you right to access to the platform. If you have any issue during that process, please, contact [support](http://127.0.0.1:5000/u/korrTCM5SdaFJ29m0LZWw07xLi82).&#x20;
 
 Once your access is granted,  you will be able to [login](login/) to your platform.
 

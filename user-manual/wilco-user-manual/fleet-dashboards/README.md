@@ -23,8 +23,8 @@ description: Fleet Dashboards are visualisations of your fleet behaviour
 
 Navigation through fleet dashboards can be sorted in 3 blocks from top to the bottom of display:
 
-* [header display](header-display.md)
-* [fleet display](fleet-display.md)
-* [current alerts display](current-alerts-display.md)
+* [header display](header.md)
+* [fleet display](fleet.md)
+* [current alerts display](current-alerts.md)
 
 <figure><img src="../../../.gitbook/assets/fleetview (1).png" alt=""><figcaption></figcaption></figure>
