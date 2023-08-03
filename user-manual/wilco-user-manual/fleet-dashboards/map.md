@@ -8,7 +8,7 @@ Displays all the aircrafts from fleet (independently from the aircraft type) on 
 
 <figure><img src="../../../.gitbook/assets/Screenshot 2023-03-23 at 11.31.23.png" alt=""><figcaption></figcaption></figure>
 
-On the top of the map, you can  find the [header](header.md).
+On the top of the map, you can  find the [header](fleet-header.md).
 
 On the top left corner of the map, you have the zoom in/zoom out buttons. You can also just use the scroll in/out on your mouse.&#x20;
 
