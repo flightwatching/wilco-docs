@@ -9,15 +9,15 @@ description: Fleet Dashboards are visualisations of your fleet behaviour
 
 <div>
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-01-24 at 15.16.07.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-01-24 at 15.16.07.png" alt="" width="563"><figcaption><p>fleet view in terms of alerts</p></figcaption></figure>
 
  
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-01-24 at 15.14.24.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-01-24 at 15.14.24.png" alt="" width="563"><figcaption><p>fuel saving fleet view</p></figcaption></figure>
 
  
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-01-24 at 15.15.00.png" alt=""><figcaption><p>examples of fleet dashboards</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2023-08-01 at 16.33.16.png" alt="" width="563"><figcaption><p>ground operations fleet view</p></figcaption></figure>
 
 </div>
 
