@@ -9,7 +9,7 @@ description: Visible on any report visualisation
 In the header from the left to the right we can find:
 
 * _home button:_ gets you back to main/home page
-* _search box:_ on this display, you could search for the parameters contained in this report.&#x20;
+* _search box:_ on this display, you could [search for the parameters](parameters/search-parameter.md) contained in this report.&#x20;
 * _rewind, play and forward buttons:_
 
 Use _rewind_ and _forward_ buttons to move to the previous or next similar report on the timeline.

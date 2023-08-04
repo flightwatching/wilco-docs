@@ -165,4 +165,7 @@
     * [overview](user-manual/wilco-user-manual/dashboards/overview.md)
     * [header](user-manual/wilco-user-manual/dashboards/header.md)
     * [dashboard](user-manual/wilco-user-manual/dashboards/dashboard.md)
-    * [parameters](user-manual/wilco-user-manual/dashboards/parameters.md)
+    * [parameters](user-manual/wilco-user-manual/dashboards/parameters/README.md)
+      * [search parameter](user-manual/wilco-user-manual/dashboards/parameters/search-parameter.md)
+      * [plot graph](user-manual/wilco-user-manual/dashboards/parameters/plot-graph.md)
+      * [trend chart](user-manual/wilco-user-manual/dashboards/parameters/trend-chart.md)
