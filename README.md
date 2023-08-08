@@ -18,7 +18,7 @@ layout:
     visible: true
 ---
 
-# WILCO User Manual
+# BASIC USER MANUAL
 
 {% hint style="info" %}
 _<mark style="color:orange;">**NOTE: WILCO platform works best on Google Chrome web browser!**</mark>_
@@ -26,4 +26,4 @@ _<mark style="color:orange;">**NOTE: WILCO platform works best on Google Chrome 
 
 You URL link would look like:  _https://<mark style="color:orange;">yourURL</mark>.flightwatching.com/wilco/#/_
 
-Once clicked on the link, it will take you to the [Welcome Page.](user-manual/wilco-user-manual/welcome-page/)
+Once clicked on the link, it will take you to the [Welcome Page.](user-manual/basic-user-manual/welcome-page/)
