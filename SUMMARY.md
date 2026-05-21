@@ -116,7 +116,6 @@
   * [FW.removeFwotProperty](ift-v2/fw.removefwotproperty.md)
   * [FW.removeSomeFwotProperty](ift-v2/fw.removesomefwotproperty.md)
   * [FW.tag](ift-v2/fw.tag.md)
-  * [FW.ticket](ift-v2/fw.ticket.md)
   * [FW.untag](ift-v2/fw.untag.md)
   * [FW.postEvent](ift-v2/fw.postevent.md)
   * [FW.reportFaultCode](ift-v2/fw.reportfaultcode.md)
